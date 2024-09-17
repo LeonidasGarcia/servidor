@@ -3,15 +3,10 @@ import express from "express";
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get("/api/saludo", (req, res)=>{
-
-    const obj = {
-        nombre:"leo",
-        edad:19
-    }
+app.get("/api/miwebo", (req, res)=>{
 
     console.log("he recibido una solicitud get desde react");
-    res.send(JSON.stringify(obj));
+    res.text().send("Alberto traga pene");
 })
 
 app.listen(port, ()=>{
