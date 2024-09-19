@@ -12,6 +12,10 @@ app.get("/api/", (req, res)=>{
     res.send("Alberto traga pene");
 })
 
+app.get("/jeje/", (req, res)=>{
+    res.send("moco")
+})
+
 app.listen(port, ()=>{
     console.log("servidor iniciado");
 })
