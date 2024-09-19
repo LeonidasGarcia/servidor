@@ -1,14 +1,7 @@
 import express from "express";
-import cors from "cors"
 
 const app = express();
 const port = process.env.PORT || 3000;
-
-app.use(cors(
-    {
-        origin: "https://rifa-pro-fondos-git-main-leonidasgarcias-projects.vercel.app/"
-    }
-))
 
 app.get("/api/", (req, res)=>{
 
