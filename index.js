@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors(
     {
-        origin: "https://leonidasgarcia.github.io"
+        origin: "https://rifa-pro-fondos-git-main-leonidasgarcias-projects.vercel.app/"
     }
 ))
 
