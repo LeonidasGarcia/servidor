@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: "http://localhost:5173/"
+    origin: "https://rifa-pro-fondos.vercel.app/"
 }))
 
 app.get("/api/", (req, res)=>{
